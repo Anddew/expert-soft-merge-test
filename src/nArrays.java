@@ -33,7 +33,7 @@ public class nArrays {
         }
     }
 
-    public static ArrayList createIntegerList() {
+    private static ArrayList<Integer> createIntegerList() {
         ArrayList<Integer> result = new ArrayList<>();
         Random random = new Random();
         int minSize = 3;
